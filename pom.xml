@@ -4,6 +4,15 @@
   <groupId>org.example</groupId>
   <artifactId>Planetas</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Archetype - Planetas</name>
+  <name>Archetype - Planeta</name>
   <url>http://maven.apache.org</url>
+
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
+    <dependency>
+      <groupId>org.xerial</groupId>
+      <artifactId>sqlite-jdbc</artifactId>
+      <version>3.44.1.0</version>
+    </dependency>
+  </dependencies>
 </project>
